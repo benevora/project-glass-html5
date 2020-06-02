@@ -19,9 +19,10 @@ p {
 }
 
 div#interface {
-    width: 900px;
+    position: relative;
+    width: 930px;
     background-color: #ffffff;
-    margin: -20px auto 0px auto;
+    margin: -10px auto 0px auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
     padding: 10px;
 }
@@ -38,8 +39,8 @@ a:hover {
 
 header#cabecalho img#icone {
     position: absolute;
-    left: 780px;
-    top: 70px;
+    left: 775px;
+    top: 95px;
 }
 
 header#cabecalho {
@@ -80,7 +81,7 @@ nav#menu ul {
     text-transform: uppercase;
     position: absolute;
     top: -20px;
-    left: 300px;
+    left: 295px;
 }
 
 nav#menu li {
@@ -112,6 +113,8 @@ section#corpo {
     width: 500px;
     float: left;
     border-right: 1px solid #606060;
+    margin-left: 10px;
+    margin-right: 10px;
     padding-right: 15px;
 }
 
@@ -226,11 +229,13 @@ table#tabelaspec td.cd {
 
 aside#lateral {
     display: block;
-    width: 350px;
+    width: 355px;
     float: right;
     background-color: #dddddd;
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-left: 0px;
+    margin-right:10px;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
 }
 
