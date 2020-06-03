@@ -1,25 +1,67 @@
-Google Glass
-A revolução do Google está chegando
+<!DOCTYPE html>
+<html lang="pt-br">
 
-[AQUI ENTRA UMA FOTO]
+<head>
+    <meta charset="UTF-8/">
+    <title>All about Google Glass</title>
+    <link rel="stylesheet" href="_css/estilo.css">
+    <link rel="stylesheet" href="_css/media.css">
+</head>
 
-Menu Principal
-- Home
-- Especificações
-- Fotos
-- Multimídia
-- Fale conosco
+<script src="_javascript/funcoes.js"></script>
 
-Glass > Multimídia
-Sons e Vídeos
-por Gustavo Guanabara
-Atualizado em 01/Maio/2013
+<body>
+    <div id="interface">
+        <header id="cabecalho">
+            <hgoup>
+                <h1>Google Glass</h1>
+                <h2>The Google revolution is coming</h2>
+            </hgoup>
 
+            <img id="icone" src="_imagens/multimidia.png">
 
-Áudio e Vídeo
+            <nav id="menu">
+                <h1>Main menu</h1>
+                <ul>
+                    <li onmouseover="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/multimidia.png')">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li onmouseover="mudaFoto('_imagens/especificacoes.png')" onmouseout="mudaFoto('_imagens/multimidia.png')">
+                            <a href="specs.html">Specifications</a>
+                    </li>
+                    <li onmouseover="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/multimidia.png')">
+                        <a href="fotos.html">Photos</a></li>
+                    <li onmouseover="mudaFoto('_imagens/multimidia.png')" onmouseout="mudaFoto('_imagens/multimidia.png')">
+                        <a href="multimidia.html">Multimedia</a></li>
+                    <li onmouseover="mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/multimidia.png')">
+                        <a href="fale-conosco.html">Contact us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="corpo-full">
+            <article id="noticia-principal">
+                <header id="cabecalho-artigo">
+                    <hgroup>
+                        <h3>Glass > Multimídia</h3>
+                        <h1>Sons e Vídeos</h1>
+                        <h2>by Ben Evora</h2>
+                        <h3 class="direita">Updated on June 2, 2020</h3>
+                    </hgroup>
+                </header>
 
-[AQUI ENTRA UM VÍDEO]
-[AQUI ENTRA UM ÁUDIO]
+                <div id="tv-radio">
+                    <audio id="musica" src="_media/2009-lovers-carvings-bibio.mp3" type="audio/mpg" controls="controls"></audio>
+                    <video id="filme" src="">
 
-Copyright 2013 - by Gustavo Guanabara
-Facebook | Twitter
+                    </video>
+                </div>
+            </article>
+        </section>
+
+        <footer id="rodape">
+            <p>Copyright &copy; 2020 - by Ben Evora</p>
+        </footer>
+    </div>
+</body>
+
+</html>
