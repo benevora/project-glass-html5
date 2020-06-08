@@ -225,6 +225,11 @@ table#tabelaspec td.cd {
     text-align: left;
 }
 
+
+video#video-01 {
+    width: 500px;
+}
+
 /* ============= FORMATACAO DO ASIDE ===============*/
 
 aside#lateral {
@@ -251,6 +256,13 @@ aside#lateral h2 {
     font-size: 13pt;
     color: #ffffff;
     padding: 5px;
+}
+
+video#video-02 {
+    display: block;
+    position: relative;
+    width: 355px;
+    top: -15px;
 }
 
 /* ============= FORMATACAO DO FOOTER ===============*/

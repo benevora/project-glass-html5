@@ -53,5 +53,7 @@ fieldset#pedido {
 }
 
 input#botao {
-    margin-left: 15px;
+    margin-top: -10px;
+    margin-left: 20px;
+    width:80px ;
 }
